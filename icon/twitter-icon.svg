@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="80" height="80" viewBox="0 0 400 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.2</desc>
+<defs>
+</defs>
+<g transform="matrix(1.78 0 0 1.78 200 200)" id="Capa_1"  >
+<circle style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(85,172,238); fill-rule: nonzero; opacity: 1;"  cx="0" cy="0" r="56.098" />
+</g>
+<g transform="matrix(1.78 0 0 1.78 203 208)" id="Capa_1"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(241,242,242); fill-rule: nonzero; opacity: 1;"  transform=" translate(-57.78, -60.59)" d="M 90.461 40.316 c -2.404 1.066 -4.99 1.787 -7.702 2.109 c 2.769 -1.659 4.894 -4.284 5.897 -7.417 c -2.591 1.537 -5.462 2.652 -8.515 3.253 c -2.446 -2.605 -5.931 -4.233 -9.79 -4.233 c -7.404 0 -13.409 6.005 -13.409 13.409 c 0 1.051 0.119 2.074 0.349 3.056 c -11.144 -0.559 -21.025 -5.897 -27.639 -14.012 c -1.154 1.98 -1.816 4.285 -1.816 6.742 c 0 4.651 2.369 8.757 5.965 11.161 c -2.197 -0.069 -4.266 -0.672 -6.073 -1.679 c -0.001 0.057 -0.001 0.114 -0.001 0.17 c 0 6.497 4.624 11.916 10.757 13.147 c -1.124 0.308 -2.311 0.471 -3.532 0.471 c -0.866 0 -1.705 -0.083 -2.523 -0.239 c 1.706 5.326 6.657 9.203 12.526 9.312 c -4.59 3.597 -10.371 5.74 -16.655 5.74 c -1.08 0 -2.15 -0.063 -3.197 -0.188 c 5.931 3.806 12.981 6.025 20.553 6.025 c 24.664 0 38.152 -20.432 38.152 -38.153 c 0 -0.581 -0.013 -1.16 -0.039 -1.734 C 86.391 45.366 88.664 43.005 90.461 40.316 L 90.461 40.316 z" stroke-linecap="round" />
+</g>
+</svg>

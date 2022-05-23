@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="80" height="80" viewBox="0 0 400 400" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.2</desc>
+<defs>
+</defs>
+<g transform="matrix(0.39 0 0 0.39 199.82 135.5)" id="Apple"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(240,67,44); fill-rule: nonzero; opacity: 1;"  transform=" translate(-255.53, -90.88)" d="M 90 93.25 l 65.06 65.06 a 140.31 140.31 0 0 1 201 -1 v 0 l 65 -65.09 a 232.33 232.33 0 0 0 -331 1 Z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.39 0 0 0.39 135.16 199.77)" id="Apple"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,191,0); fill-rule: nonzero; opacity: 1;"  transform=" translate(-90, -255.4)" d="M 90.85 419.76 l 65 -65 a 140.34 140.34 0 0 1 1 -198.71 L 91.81 91 a 232.35 232.35 0 0 0 -1 328.8 Z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.39 0 0 0.39 218.15 218.09)" id="Apple"  >
+<polygon style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(36,170,73); fill-rule: nonzero; opacity: 1;"  points="-0.48,-0.48 -0.48,0.48 0.48,0.48 -0.48,-0.48 " />
+</g>
+<g transform="matrix(0.39 0 0 0.39 199.81 264.66)" id="Apple"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(36,170,73); fill-rule: nonzero; opacity: 1;"  transform=" translate(-255.53, -421.53)" d="M 255.5 488.21 a 231.65 231.65 0 0 0 164.55 -68.3 L 355 354.84 a 140.3 140.3 0 0 1 -199 0 l -65 65 A 231.65 231.65 0 0 0 255.5 488.21 Z" stroke-linecap="round" />
+</g>
+<g transform="matrix(0.39 0 0 0.39 254.64 223.26)" id="Apple"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(51,132,252); fill-rule: nonzero; opacity: 1;"  transform=" translate(-395.89, -315.55)" d="M 484.36 210.33 l -181.42 0.25 V 302.8 h 85.84 a 140.7 140.7 0 0 1 -33.69 52.91 l 65.05 65.06 a 232.65 232.65 0 0 0 64.22 -210.44 Z" stroke-linecap="round" />
+</g>
+</svg>

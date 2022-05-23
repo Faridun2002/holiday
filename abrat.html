@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обратная связь</title>
+    <link rel="shortcut icon" href="./icon/gerb.png" type="image/png">
+    <link rel="stylesheet" href="css/regist.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header class="header">      
+      <span style="font-size:0;cursor:pointer" onclick="openNav()">&#9776;<img class="icon" id="icon_menu" src="/icon/menu_50px.png" alt="Иконка"></span>
+      <div id="text_header">Праздники Таджикистана</div>
+    </header>
+    <div  id="mySidenav" class="sidenav">
+      <nav>
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/index.html">Главная</a>
+        <a href="/galary.html">Галерея</a>
+        <a href="/news.html">Новости</a>
+        <a href="/spis_praz.html">Календарь</a>
+        <a href="/signup.html">Регистрация</a>
+        <a href="/login.html">Вход</a>
+        <a href="/abrat.html">Обратная связь</a>
+      </nav>
+    </div>
+    <main id="main">
+        <div class="form">
+            <form class="form_body" action="/login_now" method="post">
+                <h1 class="form_title">Обратная связь</h1>
+                <div class="form_item">
+                    <label class="form_label">Введите свой адрес email:</label>
+                    <input class="form_input" type="text" name="login2" id="login2" placeholder="Fedor_02"><br>
+                </div>
+                <div class="form_item">
+                    <label class="form_label">Сообщение:</label>
+                    <textarea class="form_input"></textarea>
+                </div>
+                <button class="form_button">Отправить</button>
+              </form>
+        </div>
+    </main> 
+    <footer id="footer" class="bg-dark text-center text-white py-3 my-4 mb-0">
+      <ul class="nav justify-content-center pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="/icon/facebook-icon.svg" alt=""></a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="/icon/twitter-icon.svg" alt=""></a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="/icon/whatsapp.svg" alt=""></a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="/icon/instagram-icon.svg" alt=""></a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="/icon/telegram-icon.svg" alt=""></a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="/icon/viber-icon.svg"></a></li>
+      </ul>
+      <p class="text-center">© 2022 Developed by Jalolov and Akbarov</p>
+    </footer>
+</body>
+</html>

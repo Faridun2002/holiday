@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lobster', cursive;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.items {
+    padding: 50px 0;
+    margin: 15px 30px;
+}
+
+.items_container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.items_body {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+}
+
+.item_img {
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 58% 0px;
+    overflow: hidden;
+    position: relative;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.wrapper img {
+    border-radius: 15px;
+}
+
+.item_img img:hover {
+    transform: scale(1.1);
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: justify;
+}
+a {
+    margin-bottom: 50px;
+}

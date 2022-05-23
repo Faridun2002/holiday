@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Галерея</title>
+    <link rel="shortcut icon" href="./icon/gerb.png" type="image/png">
+    <link rel="stylesheet" href="/css/style_galary.css">
+    <link rel="stylesheet" href="./css/sidebar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header class="header">      
+        <span style="font-size:0;cursor:pointer" onclick="openNav()">&#9776;<img class="icon" id="icon_menu" src="/icon/menu_50px.png" alt="Иконка"></span>
+        <div id="text_header">Праздники Таджикистана</div>
+      </header>
+      <div  id="mySidenav" class="sidenav">
+        <nav>
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="/index.html">Главная</a>
+          <a href="/galary.html">Галерея</a>
+          <a href="/news.html">Новости</a>
+          <a href="/spis_praz.html">Календарь</a>
+          <a href="/signup.html">Регистрация</a>
+          <a href="/login.html">Вход</a>
+          <a href="/abrat.html">Обратная связь</a>
+        </nav>
+      </div>
+    <main id="main">
+        <div class="wrapper">
+            <div class="items">
+                <div class="items_container">
+                    <div class="items_body">
+                        <div class="item">
+                            <div class="name">
+                                Новый год
+                            </div>
+                            <div class="item_img">
+                                <img class="img" src="/images/new-year.webp" alt="Новый год">
+                            </div>
+                            <div class="item_text">
+                                Новый год– это самый любимый праздник большинства взрослых и детей, ведь в ночь с 31 декабря на <a href="/info/new_year.html" class="info"> читать далее...</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="name">
+                                23 февраля
+                            </div>
+                            <div class="item_img">
+                                <img id="img2" class="img" src="/images/23february.jpg" alt="23февраля">
+                            </div>
+                            <div class="item_text">
+                                23 февраля, День вооруженных сил Республики Таджикистан <a href="/info/23_fev.html" class="info">читать далее...</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="name">
+                                8 марта
+                            </div>
+                            <div class="item_img">
+                                <img id="img3" class="img" src="/images/devushka.jpg" alt="8марта">
+                            </div>
+                            <div class="item_text">
+                                8 марта в Таджикистане отмечается День матери <a href="/info/8_marta.html" class="info">читать далее...</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="name">
+                                Навруз
+                            </div>
+                            <div class="item_img">
+                                <img id="img4" class="img" src="/images/navruz_dushanbe-narod-.jpg" alt="навруз">
+                            </div>
+                            <div class="item_text">
+                                Собственно, слово «Навруз» означает — «Новый день» <a href="/info/new_day.html" class="info">читать далее...</a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="name">
+                                9 мая
+                            </div>
+                            <div class="item_img">
+                                <img id="img5" class="img" src="/images/veterani.jpg" alt="9may">
+                            </div>
+                            <div class="item_text">
+                                Для таджикского народа, потерявшего в Великой Отечественной <a href="/info/9_may.html" class="info">читать далее...</a>
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                            <div class="name">    
+                                Вахдат
+                            </div>
+                            <div class="item_img">
+                                <img id="img6" class="img" src="/images/Фон.jpg" alt="vahdat">
+                            </div>
+                            <div class="item_text">
+                                В 1998 году Президент Таджикистана Эмомали Рахмон <a href="/info/vahdat.html" class="info">читать далее...</a>
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                            <div class="name">
+                                День независимости
+                            </div>
+                            <div class="item_img">
+                                <img id="img7" class="img" src="/images/день независимости.jpg" alt="День независимости">
+                            </div>
+                            <div class="item_text">
+                                По Закону Республики Таджикистан «О праздничных днях» <a href="/info/day_nez.html" class="info">читать далее...</a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="name">
+                                Мехргон
+                            </div>
+                            <div class="item_img">
+                                <img id="img8" class="img" src="/images/eda.jpg" alt="Мехргон">
+                            </div>
+                            <div class="item_text">
+                                Таджикский праздник. Осень - самое <a href="/info/mehrgon.html" class="info">читать далее...</a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="name">
+                                День языка РТ
+                            </div>
+                            <div class="item_img">
+                                <img id="img9" class="img" src="/images/language.jpg" alt="5октябр">
+                            </div>
+                            <div class="item_text">
+                                5 октября 2020 года в Конституционном суде Республики Таджикистан <a href="/info/day_language.html" class="info">читать далее...</a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="name">
+                                День конституции
+                            </div>
+                            <div class="item_img">
+                                <img id="img10" class="img" src="/images/Konstitutsiya.jpg" alt="Konstitutsiya">
+                            </div>
+                            <div class="item_text">
+                                Конституция Таджикистана была принята 6 ноября <a href="/info/day_kons.html" class="info">читать далее...</a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="name">
+                                День президента
+                            </div>
+                            <div class="item_img">
+                                <img id="img11" class="img" src="/images/yemomali-rakhmon.jpg" alt="Prezident">
+                            </div>
+                            <div class="item_text">
+                                Празднование «Дня Президента Республики Таджикистан» в Душанбинском <a href="/info/day_prezi.html" class="info">читать далее...</a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="name">
+                                День флага
+                            </div>
+                            <div class="item_img">
+                                <img id="img12" class="img" src="/images/parcham.jpg" alt="Parcham">
+                            </div>
+                            <div class="item_text">
+                                Государственный флаг как первый символ независимого таджикского государства был <a href="/info/day_flaga.html" class="info">читать далее...</a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="name">
+                                Рамазан
+                            </div>
+                            <div class="item_img">
+                                <img id="img13" class="img" src="/images/ramazon.jpg" alt="ramazon">
+                            </div>
+                            <div class="item_text">
+                                Иди Рамазан. Праздник разговления, который завершает великий пост <a href="/info/ramadan.html" class="info">читать далее...</a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="name">
+                                Курбан-байрам
+                            </div>
+                            <div class="item_img">
+                                <img id="img14" class="img" src="/images/idi_qurbon.jpg" alt="idi_qurbon">
+                            </div>
+                            <div class="item_text">
+                                Иди Курбон. Самый значимый праздник для мусульман — день жертвоприношения. <a href="/info/kurban.html" class="info">читать далее...</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer id="footer" class="bg-dark text-center text-white py-3 my-4 mb-0">
+        <ul class="nav justify-content-center pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="/icon/facebook-icon.svg" alt=""></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="/icon/twitter-icon.svg" alt=""></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="/icon/whatsapp.svg" alt=""></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="/icon/instagram-icon.svg" alt=""></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="/icon/telegram-icon.svg" alt=""></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="/icon/viber-icon.svg"></a></li>
+        </ul>
+        <p class="text-center">© 2022 Developed by Jalolov and Akbarov</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body {
+  margin: 0;
+}
+.header {
+  background: rgb(13,146,86);
+  background: linear-gradient(90deg, rgba(13,146,86,1) 20%, rgba(14,66,142,1) 54%, rgba(81,161,213,1) 91%);
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 99;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;}
+a:visited {
+  color: rgb(255, 255, 255);}
+
+#text_header {
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+  /* -moz-transform: matrix( 2.85493403374582,0,0,2.85493403374582,0,0);
+  -webkit-transform: matrix( 2.85493403374582,0,0,2.85493403374582,0,0);
+  -ms-transform: matrix( 2.85493403374582,0,0,2.85493403374582,0,0); */
+  position: absolute;
+  left: 55px;
+  top: 5px;
+}
+
+#icon_menu {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  width: 30px;
+}
+
+body {
+  font-family: "Palatino Linotype";
+}
+
+.table {
+	width: 95%;
+	border: none;
+	margin-bottom: 20px;
+}
+.table thead th {
+	font-weight: bold;
+	text-align: left;
+	border: none;
+	padding: 10px 10px;
+	background: #d8d8d8;
+	font-size: 14px;
+}
+.table thead tr th:first-child {
+	border-radius: 8px 0 0 8px;
+}
+.table thead tr th:last-child {
+	border-radius: 0 8px 8px 0;
+}
+.table tbody td {
+	text-align: left;
+	border: none;
+	padding: 10px 10px;
+	font-size: 14px;
+	vertical-align: top;
+}
+.table tbody tr:nth-child(even){
+	background: #f3f3f3;
+}
+
+.table tbody tr td:first-child {
+	border-radius: 8px 0 0 8px;
+}
+.table tbody tr td:last-child {
+	border-radius: 0 8px 8px 0;
+}
+
+.container {
+  padding-top: 50px;
+}
+.text {
+  font-size: 32px;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  margin-bottom: 20px;
+}
+@media (max-width: 560px) {
+  .table {
+    max-width: none;
+  }
+  h1 {
+    text-align: center;
+  }
+  .table tbody td, .table thead th {
+    font-size: 10px;
+  }
+}
+@media (max-width: 440px) {
+  table {
+    margin-left: -10px;
+  }
+}
+@media (max-width: 400px) {
+  table {
+    margin-left: -20px;
+  }
+  .text {
+    font-size: 20px;
+  }
+}
